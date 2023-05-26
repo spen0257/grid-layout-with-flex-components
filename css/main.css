@@ -55,7 +55,10 @@ body {
     justify-content: center;
 }
 
-.a{
+.emoji a{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-basis: 100%;
+    
+    align-items: flex-end;
 }
